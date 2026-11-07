@@ -6,7 +6,7 @@
   "link": "https://www.ondacero.es/podcast/programas/la-brujula/",
   "author": "OndaCero",
   "language": "es-es",
-  "guidSuffix": "v2"
+  "feedSuffix": "-v2"
  },
  "episodes": {
   "6aee5f088f62b0e441ce3e63": {

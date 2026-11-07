@@ -12,6 +12,10 @@ const BASE_URL = (process.env.BASE_URL || 'http://localhost:8080').replace(/\/$/
 
 const handlers = { canalsur, ivoox: rss, rss };
 
+// feedSuffix cambia la URL del feed para que Overcast lo trate como uno nuevo.
+const feedName = (slug, meta) => `${slug}${meta.feedSuffix ?? ''}`;
+const feedUrl = (slug, meta) => `${BASE_URL}/feeds/${feedName(slug, meta)}.xml`;
+
 const readJson = async (file) => {
   try {
     return JSON.parse(await readFile(file, 'utf8'));
@@ -21,7 +25,7 @@ const readJson = async (file) => {
 };
 
 function renderFeed(slug, { meta, episodes }) {
-  const selfUrl = `${BASE_URL}/feeds/${slug}.xml`;
+  const selfUrl = feedUrl(slug, meta);
   const items = Object.values(episodes).sort(
     (a, b) => (Date.parse(b.pubDate) || 0) - (Date.parse(a.pubDate) || 0),
   );
@@ -31,7 +35,7 @@ function renderFeed(slug, { meta, episodes }) {
       (ep) => `    <item>
       <title>${e(ep.title)}</title>
       <description>${e(ep.description)}</description>
-      <guid isPermaLink="false">${e(`${slug}:${ep.id}${meta.guidSuffix ? ':' + meta.guidSuffix : ''}`)}</guid>${ep.pubDate ? `\n      <pubDate>${new Date(ep.pubDate).toUTCString()}</pubDate>` : ''}${ep.link ? `\n      <link>${e(ep.link)}</link>` : ''}
+      <guid isPermaLink="false">${e(`${slug}:${ep.id}`)}</guid>${ep.pubDate ? `\n      <pubDate>${new Date(ep.pubDate).toUTCString()}</pubDate>` : ''}${ep.link ? `\n      <link>${e(ep.link)}</link>` : ''}
       <enclosure url="${e(ep.url)}" length="${ep.length || 0}" type="${e(ep.type)}"/>${ep.duration ? `\n      <itunes:duration>${e(ep.duration)}</itunes:duration>` : ''}${ep.image ? `\n      <itunes:image href="${e(ep.image)}"/>` : ''}
     </item>`,
     )
@@ -56,7 +60,7 @@ function renderIndex(feeds) {
   const rows = feeds
     .map(
       (f) =>
-        `<li><strong>${e(f.meta.title)}</strong> (${Object.keys(f.episodes).length} episodios)<br><code>${e(`${BASE_URL}/feeds/${f.slug}.xml`)}</code></li>`,
+        `<li><strong>${e(f.meta.title)}</strong> (${Object.keys(f.episodes).length} episodios)<br><code>${e(feedUrl(f.slug, f.meta))}</code></li>`,
     )
     .join('\n');
   return `<!doctype html>
@@ -74,7 +78,7 @@ ${rows}
 function renderOpml(feeds) {
   const e = escapeXml;
   const outlines = feeds
-    .map((f) => `    <outline type="rss" text="${e(f.meta.title)}" title="${e(f.meta.title)}" xmlUrl="${e(`${BASE_URL}/feeds/${f.slug}.xml`)}"/>`)
+    .map((f) => `    <outline type="rss" text="${e(f.meta.title)}" title="${e(f.meta.title)}" xmlUrl="${e(feedUrl(f.slug, f.meta))}"/>`)
     .join('\n');
   return `<?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0"><head><title>Podcasts</title></head><body>
@@ -130,7 +134,7 @@ async function main() {
     const slug = name.replace(/\.json$/, '');
     const data = await readJson(join(DATA, name));
     if (!data?.meta) continue;
-    await writeFile(join(OUT, 'feeds', `${slug}.xml`), renderFeed(slug, data));
+    await writeFile(join(OUT, 'feeds', `${feedName(slug, data.meta)}.xml`), renderFeed(slug, data));
     feeds.push({ slug, ...data });
   }
   feeds.sort((a, b) => a.meta.title.localeCompare(b.meta.title, 'es'));
