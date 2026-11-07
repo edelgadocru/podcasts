@@ -25,6 +25,12 @@ export function feedUrl(source) {
   return u;
 }
 
+// La URL del feed (_mf_..._feed_) sirve un recorte; la del reproductor web (listen_mn_) sirve el audio completo.
+const fullAudioUrl = (url) => {
+  const m = url.match(/^https?:\/\/(?:www\.)?ivoox\.com\/[^?]*_mf_(\d+)_feed_\d+\.mp3/);
+  return m ? `https://www.ivoox.com/listen_mn_${m[1]}_1.mp3` : url;
+};
+
 function slugFor(source, url) {
   const m = url.match(/_fg_f(\d+)_/);
   if (m) return `ivoox-${m[1]}`;
@@ -65,13 +71,14 @@ export async function resolve(source) {
             description: stripHtml(text(it.description) || text(it['itunes:summary'])),
             pubDate: toIso(text(it.pubDate)),
             duration: text(it['itunes:duration']) || undefined,
-            url: mediaUrl,
+            url: fullAudioUrl(mediaUrl),
             type: enc['@_type'] || mimeFromUrl(mediaUrl) || 'audio/mpeg',
             length: Number(enc['@_length']) || 0,
             image: it['itunes:image']?.['@_href'] || undefined,
             link: text(it.link) || undefined,
           };
         }
+        for (const ep of Object.values(episodes)) ep.url = fullAudioUrl(ep.url);
         console.log(`  ${items.length} episodios en el feed, ${added} nuevos`);
         return { meta, episodes };
       },
