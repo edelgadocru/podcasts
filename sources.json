@@ -10,8 +10,16 @@
       "expand": true
     },
     {
+      "type": "canalsur",
+      "url": "https://audio.canalsurmas.es/videos/category/32625-carnaval-sur"
+    },
+    {
       "type": "ivoox",
       "url": "https://www.ivoox.com/podcast-brujula_sq_f1618_1.html"
+    },
+    {
+      "type": "ivoox",
+      "url": "https://www.ivoox.com/podcast-orbita-de-endor-podcast_sq_f113302_1.html"
     }
   ]
 }

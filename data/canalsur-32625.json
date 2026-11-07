@@ -1,0 +1,155 @@
+{
+ "meta": {
+  "title": "Carnaval Sur",
+  "description": "Canal Sur Radio y Radio Andalucía Información son las únicas cadenas que transmiten para toda Andalucía y el mundo el Concurso de Agrupaciones del Carnaval de Cádiz de manera íntegra. Y Fernando Pérez dirige a un equipo de profesionales expertos en el carnaval, encargados de la retransmisión de este programa. Síguenos en nuestra app, web y CanalSur+.",
+  "image": "https://d20t7xxbiaeqt9.cloudfront.net/category_cards/dc692f6c6c5043ecbf2d85cbe550d8e2.jpg",
+  "link": "https://audio.canalsurmas.es/videos/category/32625-carnaval-sur",
+  "author": "CanalSur Más Audio",
+  "language": "es"
+ },
+ "episodes": {
+  "333961": {
+   "id": "333961",
+   "title": "Carnaval Sur - Final 2026 - 13/02/2026",
+   "description": "Carnaval Sur - Final 2026",
+   "pubDate": null,
+   "duration": 39925,
+   "url": "https://d20t7xxbiaeqt9.cloudfront.net/file_media/084e0888552544b0abd821ef1bdf415e.mp3",
+   "type": "audio/mpeg",
+   "length": 1277618688,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/666576548c574f61a05434fc3ca8544a.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/333961-1771237034729_13_febcarnaval_sur-20260213_20hmp3"
+  },
+  "333966": {
+   "id": "333966",
+   "title": "Carnaval Sur - Semifinales 2026 - 08/02/2026",
+   "description": "Carnaval Sur - Semifinales 2026 - 08/02/2026",
+   "pubDate": null,
+   "duration": 19731,
+   "url": "https://d20t7xxbiaeqt9.cloudfront.net/file_media/428c9e692d1244e6b8342e722f7742b7.mp3",
+   "type": "audio/mpeg",
+   "length": 631419648,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/a3829b711c1f4ac78a9499858b33db8e.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/333966-1770620706108_8feb_carnaval_sur-20260208_20hmp3"
+  },
+  "333967": {
+   "id": "333967",
+   "title": "Carnaval Sur - Semifinales 2026 - 11/02/2026 20:00:00",
+   "description": "Carnaval Sur - Semifinales 2026 - 11/02/2026 20:00:00",
+   "pubDate": null,
+   "duration": 19503,
+   "url": "https://d20t7xxbiaeqt9.cloudfront.net/file_media/bc83224222e24db384c6ec4c40d15f0d.mp3",
+   "type": "audio/mpeg",
+   "length": 624096768,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/95aa6f30a7df43a2b8e0274e3d7ee554.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/333967-177088077883_11feb_6carnaval_sur-20260211_20hmp3"
+  },
+  "333969": {
+   "id": "333969",
+   "title": "Carnaval Sur - Semifinales 2026 - 10/02/2026",
+   "description": "Carnaval Sur - Semifinales 2026 - 10/02/2026",
+   "pubDate": null,
+   "duration": 17286,
+   "url": "https://d20t7xxbiaeqt9.cloudfront.net/file_media/f4f7c3cec3854f2b9ed44013af4e9aee.mp3",
+   "type": "audio/mpeg",
+   "length": 553172736,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/f5ad734b2eac4a8192ea997fc21d0146.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/333969-1770794132471_10feb_carnaval_sur-20260210_20hmp3"
+  },
+  "333970": {
+   "id": "333970",
+   "title": "Carnaval Sur - Semifinales 2026 - 09/02/2026",
+   "description": "Carnaval Sur - Semifinales 2026 - 09/02/2026",
+   "pubDate": null,
+   "duration": 19534,
+   "url": "https://d20t7xxbiaeqt9.cloudfront.net/file_media/93be0063c8174ff28627454622c394f4.mp3",
+   "type": "audio/mpeg",
+   "length": 625105152,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/b68116ef4ff24eb58a2bdf31a1f4826d.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/333970-1770707912930_9feb_carnaval_sur-20260209_20hmp3"
+  },
+  "333984": {
+   "id": "333984",
+   "title": "Carnaval Sur - Cuartos de final 2026 - 05/02/2026",
+   "description": "Carnaval Sur - Cuartos de final 2026 - 05/02/2026",
+   "pubDate": null,
+   "duration": 21583,
+   "url": "https://d20t7xxbiaeqt9.cloudfront.net/file_media/6b9496f5b54e4581880d2c02edb57d96.mp3",
+   "type": "audio/mpeg",
+   "length": 345331706,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/be94c6aacd9a4520aa176ee99d86752c.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/333984-23341198-_5feb_carnaval_sur-20260205_2000_0200mp3"
+  },
+  "333985": {
+   "id": "333985",
+   "title": "Carnaval Sur - Cuartos de final 2026 - 04/02/2026 20:00:00",
+   "description": "Carnaval Sur - Cuartos de final 2026 - 04/02/2026 20:00:00",
+   "pubDate": null,
+   "duration": 16117,
+   "url": "https://d20t7xxbiaeqt9.cloudfront.net/file_media/b26715b8c5a64e318a96d7fd53386a1c.mp3",
+   "type": "audio/mpeg",
+   "length": 515750400,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/8a4d33bc238e472fa9ab0219eef5fa9e.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/333985-1770276211921_4feb_carnaval_sur-20260204_20hmp3"
+  },
+  "333986": {
+   "id": "333986",
+   "title": "Carnaval Sur - Cuartos de final 2026 - 03/02/2026",
+   "description": "Carnaval Sur - Cuartos de final 2026 - 03/02/2026",
+   "pubDate": null,
+   "duration": 19347,
+   "url": "https://d20t7xxbiaeqt9.cloudfront.net/file_media/5581a233200245ac8738d435d1c3eae0.mp3",
+   "type": "audio/mpeg",
+   "length": 619124736,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/1c5fd2283db1437e97332fff2008ab49.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/333986-1770189735400_3feb_carnaval_sur-20260203_2000hmp3"
+  },
+  "333987": {
+   "id": "333987",
+   "title": "Carnaval Sur - Cuartos de final 2026 - 01/02/2026",
+   "description": "Carnaval Sur - Cuartos de final 2026 - 01/02/2026",
+   "pubDate": null,
+   "duration": 19339,
+   "url": "https://d20t7xxbiaeqt9.cloudfront.net/file_media/f7329b4c95a74163ae0a11fe49f5002d.mp3",
+   "type": "audio/mpeg",
+   "length": 618850560,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/1f320c69d0a74677ac82e6cfba4c43ae.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/333987-1770018978072_1feb_carnaval_sur-20260201_20hmp3"
+  },
+  "333988": {
+   "id": "333988",
+   "title": "Carnaval Sur - Cuartos de final 2026 - 02/02/2026",
+   "description": "Carnaval Sur - Cuartos de final 2026 - 02/02/2026",
+   "pubDate": null,
+   "duration": 20276,
+   "url": "https://d20t7xxbiaeqt9.cloudfront.net/file_media/b09ce9c12f9c4b3e87bd662534c59b71.mp3",
+   "type": "audio/mpeg",
+   "length": 648862464,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/7d13334f60f34880bcedad9af7b61377.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/333988-1770104295277_2feb_carnaval_sur-20260202_2000hmp3"
+  },
+  "333989": {
+   "id": "333989",
+   "title": "Carnaval Sur - Cuartos de final 2026 - 31/01/2026",
+   "description": "Carnaval Sur - Cuartos de final 2026 - 31/01/2026",
+   "pubDate": null,
+   "duration": 19051,
+   "url": "https://d20t7xxbiaeqt9.cloudfront.net/file_media/780f180f62aa4289a4a2c2548e2ce042.mp3",
+   "type": "audio/mpeg",
+   "length": 609643008,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/e0c0ee8612064c919d3d116bc4bca3c9.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/333989-1770019102597_31ene_carnaval_sur-20260131_20hmp3"
+  },
+  "423602": {
+   "id": "423602",
+   "title": "Viernes 6 de noviembre 22:03",
+   "description": "Carnaval Sur",
+   "pubDate": "2026-11-06T22:03:00+01:00",
+   "url": "https://cdn.rtva.interactvty.com/radio_csm_audio_ott/carnaval_sur/23341198-carnaval_sur-20261106_2203_2300/23341198-carnaval_sur-20261106_2203_2300.mp3",
+   "type": "audio/mpeg",
+   "length": 54688749,
+   "image": "https://cdn.rtva.interactvty.com/radio_csm_audio_ott/carnaval_sur/23341198-carnaval_sur-20261106_2203_2300/23341198-carnaval_sur-20261106_2203_2300_1.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/423602-viernes-6-de-noviembre-2203"
+  }
+ }
+}
