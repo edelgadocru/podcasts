@@ -26,9 +26,9 @@ const readJson = async (file) => {
 
 function renderFeed(slug, { meta, episodes }) {
   const selfUrl = feedUrl(slug, meta);
-  const items = Object.values(episodes).sort(
-    (a, b) => (Date.parse(b.pubDate) || 0) - (Date.parse(a.pubDate) || 0),
-  );
+  const items = Object.values(episodes)
+    .filter((ep) => !ep.hidden)
+    .sort((a, b) => (Date.parse(b.pubDate) || 0) - (Date.parse(a.pubDate) || 0));
   const e = escapeXml;
   const itemXml = items
     .map(
@@ -60,7 +60,7 @@ function renderIndex(feeds) {
   const rows = feeds
     .map(
       (f) =>
-        `<li><strong>${e(f.meta.title)}</strong> (${Object.keys(f.episodes).length} episodios)<br><code>${e(feedUrl(f.slug, f.meta))}</code></li>`,
+        `<li><strong>${e(f.meta.title)}</strong> (${Object.values(f.episodes).filter((ep) => !ep.hidden).length} episodios)<br><code>${e(feedUrl(f.slug, f.meta))}</code></li>`,
     )
     .join('\n');
   return `<!doctype html>

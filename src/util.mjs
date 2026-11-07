@@ -79,3 +79,13 @@ export async function headInfo(url) {
     return { length: 0, type: undefined };
   }
 }
+
+// Tamaño real servido tras las redirecciones; undefined si no se pudo consultar.
+export async function servedLength(url) {
+  try {
+    const res = await fetchRetry(url, { method: 'HEAD' }, 2);
+    return Number(res.headers.get('content-length')) || 0;
+  } catch {
+    return undefined;
+  }
+}

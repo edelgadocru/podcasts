@@ -1,5 +1,5 @@
 import { XMLParser } from 'fast-xml-parser';
-import { fetchRetry, stripHtml, mimeFromUrl } from './util.mjs';
+import { fetchRetry, mapLimit, stripHtml, mimeFromUrl, servedLength } from './util.mjs';
 
 const parser = new XMLParser({
   ignoreAttributes: false,
@@ -30,6 +30,20 @@ const fullAudioUrl = (url) => {
   const m = url.match(/^https?:\/\/(?:www\.)?ivoox\.com\/[^?]*_mf_(\d+)_feed_\d+\.mp3/);
   return m ? `https://www.ivoox.com/listen_mn_${m[1]}_1.mp3` : url;
 };
+
+// iVoox sirve un recorte a los episodios de pago; se ocultan los que no llegan completos.
+async function markIncomplete(episodes) {
+  const pending = Object.values(episodes).filter((ep) => ep.url.includes('ivoox.com/listen_mn_') && !ep.verified);
+  await mapLimit(pending, 8, async (ep) => {
+    const real = await servedLength(ep.url);
+    if (real === undefined) return void (ep.hidden ??= true);
+    const complete = real > 100_000 && (!ep.length || Math.abs(real - ep.length) / ep.length <= 0.02);
+    ep.verified = complete;
+    ep.hidden = !complete;
+  });
+  const hidden = Object.values(episodes).filter((ep) => ep.hidden).length;
+  console.log(`  ${hidden} episodios ocultos por estar recortados o no disponibles`);
+}
 
 function slugFor(source, url) {
   const m = url.match(/_fg_f(\d+)_/);
@@ -66,7 +80,11 @@ export async function resolve(source) {
           if (!mediaUrl) continue;
           const id = String(text(it.guid) || mediaUrl);
           if (!episodes[id]) added++;
+          const old = episodes[id];
+          const length = Number(enc['@_length']) || 0;
+          const keep = old && old.length === length ? { verified: old.verified, hidden: old.hidden } : {};
           episodes[id] = {
+            ...keep,
             id,
             title: text(it.title).trim(),
             description: stripHtml(text(it.description) || text(it['itunes:summary'])),
@@ -74,13 +92,14 @@ export async function resolve(source) {
             duration: text(it['itunes:duration']) || undefined,
             url: fullAudioUrl(mediaUrl),
             type: enc['@_type'] || mimeFromUrl(mediaUrl) || 'audio/mpeg',
-            length: Number(enc['@_length']) || 0,
+            length,
             image: it['itunes:image']?.['@_href'] || undefined,
             link: text(it.link) || undefined,
           };
         }
         for (const ep of Object.values(episodes)) ep.url = fullAudioUrl(ep.url);
         console.log(`  ${items.length} episodios en el feed, ${added} nuevos`);
+        await markIncomplete(episodes);
         return { meta, episodes };
       },
     },
