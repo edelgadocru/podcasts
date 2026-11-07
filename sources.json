@@ -1,0 +1,17 @@
+{
+  "sources": [
+    {
+      "type": "canalsur",
+      "url": "https://audio.canalsurmas.es/videos/category/32908-el-podcast-de-el-llamador"
+    },
+    {
+      "type": "canalsur",
+      "url": "https://audio.canalsurmas.es/videos/category/31530-podcasts-todos",
+      "expand": true
+    },
+    {
+      "type": "ivoox",
+      "url": "https://www.ivoox.com/podcast-brujula_sq_f1618_1.html"
+    }
+  ]
+}

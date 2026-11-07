@@ -1,0 +1,16 @@
+{
+  "name": "podcast-feeds",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Genera feeds RSS completos (iVoox, CanalSur Más Audio) para añadirlos en Overcast.",
+  "scripts": {
+    "build": "node src/build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.0.0"
+  }
+}

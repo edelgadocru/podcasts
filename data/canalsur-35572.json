@@ -1,0 +1,60 @@
+{
+ "meta": {
+  "title": "Materia prima",
+  "description": "Materia Prima es el espacio de Canal Sur Podcast en el que puedes conocer la agricultura en Andalucía y descubrir los detalles de un sector clave de la economía de nuestra tierra, el sector hortofrutícola.  Con Chelo Rodríguez.",
+  "image": "https://d20t7xxbiaeqt9.cloudfront.net/category_cards/ed63e036d71d4e3f9641e311dac3ecde.png",
+  "link": "https://audio.canalsurmas.es/videos/category/35572-materia-prima",
+  "author": "CanalSur Más Audio",
+  "language": "es"
+ },
+ "episodes": {
+  "403905": {
+   "id": "403905",
+   "title": "Vuelve Materia Prima, la actualidad del campo y del mar andaluces",
+   "description": "En este programa abordamos las reservas de agua, las cifras de producción y los nuevos cultivos, entre ellos algunos arcaicos y casi perdidos, que vuelven gracias a la pasión de muchos andaluces por sus raíces.",
+   "pubDate": "2026-09-16T08:15:00+02:00",
+   "duration": 2134,
+   "url": "https://cdn.rtva.interactvty.com/radio_csm_audio_ott/podcast_generico/PODCAST_MATERIA_PRIMA_CSM_AUDIO_OK_-170926-/PODCAST_MATERIA_PRIMA_CSM_AUDIO_OK_-170926-.mp3",
+   "type": "audio/mpeg",
+   "length": 68313600,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/e6e655fa89524cdca767cef4932b72c7.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/403905-miercoles-16-de-septiembre-0815"
+  },
+  "408625": {
+   "id": "408625",
+   "title": "Peces, aves y humanos: especies no rentables",
+   "description": "También descubriremos la expansión de los cardos ruleros y el susto del virus Shamonda.",
+   "pubDate": "2026-10-01T07:30:00+02:00",
+   "duration": 2744,
+   "url": "https://cdn.rtva.interactvty.com/radio_csm_audio_ott/podcast_generico/AL-PODCAST_MATERIA_PRIMA_CSM_AUDIO_-011026-/AL-PODCAST_MATERIA_PRIMA_CSM_AUDIO_-011026-.mp3",
+   "type": "audio/mpeg",
+   "length": 87810816,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/7322924739cd4e07ad77c244307d30ba.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/408625-materia-prima-peces-aves-y-humanos-especies-no-rentables"
+  },
+  "414372": {
+   "id": "414372",
+   "title": "Tecnología, divulgación, historia y relaciones comerciales se dan la mano en el campo andaluz",
+   "description": "Hablamos de un moderno invernadero de cristal en Antas, conoceremos a un agricultor influencer de Vícar, pasaremos por una antigua bodega de Huelva y analizaremos la feria agrícola más importante de Europa.",
+   "pubDate": "2026-10-15T07:30:00+02:00",
+   "duration": 1809,
+   "url": "https://cdn.rtva.interactvty.com/radio_csm_audio_ott/podcast_generico/AL-PODCAST_MATERIA_PRIMA_CSM_AUDIO_-151026-/AL-PODCAST_MATERIA_PRIMA_CSM_AUDIO_-151026-.mp3",
+   "type": "audio/mpeg",
+   "length": 57909504,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/d5a0f285a0384be09bfe39ac3939f697.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/414372-materia-prima-tecnología-divulgación-historia-y-relaciones-comerciales"
+  },
+  "418937": {
+   "id": "418937",
+   "title": "La plaga del Thrips parvispinus afecta a más de 15.000 hectáreas de pimiento",
+   "description": "Su propagación provoca arranques de cosechas, sanciones y daños en la estética de los productos hortofrutícolas.",
+   "pubDate": "2026-10-29T07:30:00+01:00",
+   "duration": 1940,
+   "url": "https://cdn.rtva.interactvty.com/radio_csm_audio_ott/podcast_generico/AL-PODCAST_MATERIA_PRIMA_CSM_AUDIO_-301026-/AL-PODCAST_MATERIA_PRIMA_CSM_AUDIO_-301026-.mp3",
+   "type": "audio/mpeg",
+   "length": 62092800,
+   "image": "https://d20t7xxbiaeqt9.cloudfront.net/content_cards/57c301e0a94a49fa9a55693ee28e097a.jpg",
+   "link": "https://audio.canalsurmas.es/videos/detail/418937-materia-prima-la-plaga-del-thrips-parvispinus"
+  }
+ }
+}
