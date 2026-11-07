@@ -55,6 +55,7 @@ export async function resolve(source) {
           link: text(ch.link) || url,
           author: text(ch['itunes:author']) || undefined,
           language: text(ch.language) || 'es',
+          guidSuffix: 'v2',
         };
         const episodes = { ...(prev?.episodes ?? {}) };
         const items = arr(ch.item);

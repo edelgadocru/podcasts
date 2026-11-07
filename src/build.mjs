@@ -31,7 +31,7 @@ function renderFeed(slug, { meta, episodes }) {
       (ep) => `    <item>
       <title>${e(ep.title)}</title>
       <description>${e(ep.description)}</description>
-      <guid isPermaLink="false">${e(`${slug}:${ep.id}`)}</guid>${ep.pubDate ? `\n      <pubDate>${new Date(ep.pubDate).toUTCString()}</pubDate>` : ''}${ep.link ? `\n      <link>${e(ep.link)}</link>` : ''}
+      <guid isPermaLink="false">${e(`${slug}:${ep.id}${meta.guidSuffix ? ':' + meta.guidSuffix : ''}`)}</guid>${ep.pubDate ? `\n      <pubDate>${new Date(ep.pubDate).toUTCString()}</pubDate>` : ''}${ep.link ? `\n      <link>${e(ep.link)}</link>` : ''}
       <enclosure url="${e(ep.url)}" length="${ep.length || 0}" type="${e(ep.type)}"/>${ep.duration ? `\n      <itunes:duration>${e(ep.duration)}</itunes:duration>` : ''}${ep.image ? `\n      <itunes:image href="${e(ep.image)}"/>` : ''}
     </item>`,
     )
