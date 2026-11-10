@@ -1534,6 +1534,34 @@
    "length": 9426233,
    "image": "https://static-1.ivoox.com/audios/0/5/9/2/05927c2e65b9da950d06dc47a84f7435_XXL.jpg",
    "link": "https://www.ivoox.com/carl-el-mazmorrero-matt-dinniman-un-audios-mp3_rf_170277616_1.html"
+  },
+  "https://www.ivoox.com/183600275": {
+   "id": "https://www.ivoox.com/183600275",
+   "title": "LA MASACRE DEL VENDEDOR DE GOMINOLAS DEL NEW SEOUL PARK de Cho Yeeun – Un Millón de Páginas",
+   "description": "En este podcast se reseña durante unos 8,5 minutos la novela LA MASACRE DEL VENDEDOR DE GOMINOLAS DEL NEW SEOUL PARK, escrita por Cho Yeeun. Como siempre, sin spoilers. \nEsto es Un Millón de Páginas, el podcast literario honesto e independiente que no se casa con nadie.",
+   "pubDate": "2026-11-10T13:26:03.000Z",
+   "duration": "08:20",
+   "url": "https://www.ivoox.com/listen_mn_183600275_1.mp3",
+   "type": "audio/mpeg",
+   "length": 8005502,
+   "image": "https://static-1.ivoox.com/audios/a/7/1/a/a71a2fd3aa43e690e39cb515f42c2269_XXL.jpg",
+   "link": "https://www.ivoox.com/masacre-del-vendedor-de-gominolas-del-new-audios-mp3_rf_183600275_1.html",
+   "verified": true,
+   "hidden": false
+  },
+  "https://www.ivoox.com/183600176": {
+   "id": "https://www.ivoox.com/183600176",
+   "title": "El Mundo Editorial – LA FIGURA DEL CORRECTOR – Un Millón de Páginas",
+   "description": "El Mundo Editorial pretende ser una sección donde os contaremos los entresijos de este extraño mundillo de escribir y vender libros. \nEn este audio, nuestro compañero del programa Michi McGrao nos hablará de su experiencia en el campo de la revisión y la corrección de textos.\nEsto es Un Millón de Páginas, el podcast literario honesto e independiente que no se casa con nadie.",
+   "pubDate": "2026-11-10T13:24:57.000Z",
+   "duration": "24:01",
+   "url": "https://www.ivoox.com/listen_mn_183600176_1.mp3",
+   "type": "audio/mpeg",
+   "length": 23069587,
+   "image": "https://static-2.ivoox.com/audios/9/3/e/7/93e7a43c805f4d44288b84557f845f92_XXL.jpg",
+   "link": "https://www.ivoox.com/mundo-editorial-la-figura-del-corrector-audios-mp3_rf_183600176_1.html",
+   "verified": true,
+   "hidden": false
   }
  }
 }
