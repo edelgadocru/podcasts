@@ -1192,6 +1192,7 @@
    "link": "https://www.ivoox.com/ck-249-60-anos-spiderman-como-conoci-a-audios-mp3_rf_94400937_1.html"
   },
   "https://www.ivoox.com/93355160": {
+   "verified": false,
    "hidden": true,
    "id": "https://www.ivoox.com/93355160",
    "title": "CK#248: Winona Ryder, vida y milagros - Episodio exclusivo para mecenas",
@@ -3341,6 +3342,20 @@
    "length": 57293918,
    "image": "https://static-1.ivoox.com/audios/6/2/5/1/1429481526_XXL.jpg",
    "link": "https://www.ivoox.com/ck-53-carpeteros-ii-mas-mitos-eroticos-e-idolos-audios-mp3_rf_4376731_1.html"
+  },
+  "https://www.ivoox.com/183555768": {
+   "id": "https://www.ivoox.com/183555768",
+   "title": "Paseando a Krypto #14: Sevillanas de los 4 detectives, espejos y viajes temporales - Episodio exclusivo para mecenas",
+   "description": "Agradece a este podcast tantas horas de entretenimiento y disfruta de episodios exclusivos como éste. ¡Apóyale en iVoox! Tras demasiado tiempo sin el contacto directo de nuestros mecenas, nos vuelven a sorprender con rescates de El Jueves, nos piden nuevos viajes temporales, reivindicamos una vez a Pepe Da Rosa, descubrimos quién es el antimonitor más prolífico, valoramos podcasts más literarios y hasta flipamos con un posible episodio sobre espejos. ¿Con o sin Nacho? Escucha el episodio completo en la app de iVoox, o descubre todo el catálogo de iVoox Originals",
+   "pubDate": "2026-11-11T23:06:03.000Z",
+   "duration": "53:08",
+   "url": "https://www.ivoox.com/listen_mn_183555768_1.mp3",
+   "type": "audio/mpeg",
+   "length": 51018143,
+   "image": "https://static-2.ivoox.com/audios/3/d/5/5/3d55602861f74b0fcce6dc18e58925f8_XXL.jpg",
+   "link": "https://www.ivoox.com/paseando-a-krypto-14-sevillanas-4-audios-mp3_rf_183555768_1.html",
+   "verified": false,
+   "hidden": true
   }
  }
 }
