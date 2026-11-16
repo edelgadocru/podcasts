@@ -2032,6 +2032,7 @@
    "link": "https://www.ivoox.com/ck-147-eddie-murphy-vida-milagros-audios-mp3_rf_30296815_1.html"
   },
   "https://www.ivoox.com/29984594": {
+   "verified": false,
    "hidden": true,
    "id": "https://www.ivoox.com/29984594",
    "title": "CK#146: Héroes crepusculares y cómics viejunos: Del Abuelo Cebolleta al Viejo Logan - Episodio exclusivo para mecenas",
@@ -3359,6 +3360,20 @@
    "length": 51018143,
    "image": "https://static-2.ivoox.com/audios/3/d/5/5/3d55602861f74b0fcce6dc18e58925f8_XXL.jpg",
    "link": "https://www.ivoox.com/paseando-a-krypto-14-sevillanas-4-audios-mp3_rf_183555768_1.html"
+  },
+  "https://www.ivoox.com/183543262": {
+   "id": "https://www.ivoox.com/183543262",
+   "title": "CK#355: Gorras y cultura pop: Béisbol, Peaky Blinders y hip hop",
+   "description": "¡Gorras y cultura pop! Prenda que abriga, protege del sol y disimula la alopecia pero también un objeto cool o que identifica a diferentes colectivos.\n\n¿Hay un origen de la gorra? Nos remontamos a los tiempos de los antepasados que lucieron las gorras planas, símbolo del proletariado o de los trabajadores pero también símbolo de los Peaky Blinders o concepto que se ha colado en nuestro lenguaje con diferentes expresiones. \n\nLa gorra siempre muy asociada a todo tipo de deportes como el beisbol, ciclismo o golf y también a los cuerpos y fuerzas del estado. Pero también la lucen camioneros, repartidores, directores de cine o pilotos. Y que sería del hip hop sin las gorras. \n\nPero además es una prenda performativa asociada a la gente joven, a ir de guai o lo que es peor indicar que se es demasiado mayor para lucirla.  Mejor no hablar de llevar la gorra no calzada, colocada con la visera hacia atrás, de lado o posada.... argh\n\nDurante el podcast iremos dando ejemplos de todo estos conceptos, la gorra forma parte de la cultura pop. Y si no que se lo digan a Mario Bros, Spielberg, Bart Simpson o Doraemon. Escucha el episodio completo en la app de iVoox, o descubre todo el catálogo de iVoox Originals",
+   "pubDate": "2026-11-15T23:04:56.000Z",
+   "duration": "02:46:48",
+   "url": "https://www.ivoox.com/listen_mn_183543262_1.mp3",
+   "type": "audio/mpeg",
+   "length": 160137879,
+   "image": "https://static-2.ivoox.com/audios/3/8/6/c/386c8334a538da099d492a9a8b04b385_XXL.jpg",
+   "link": "https://www.ivoox.com/ck-355-gorras-cultura-pop-beisbol-peaky-blinders-audios-mp3_rf_183543262_1.html",
+   "verified": true,
+   "hidden": false
   }
  }
 }
