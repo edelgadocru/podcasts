@@ -1618,6 +1618,34 @@
    "length": 2256891,
    "image": "https://static-1.ivoox.com/audios/e/9/3/8/e938b771b8879c1b9dc43b96a508caa1_XXL.jpg",
    "link": "https://www.ivoox.com/microrrelato-camina-como-ella-lord-pelayo-audios-mp3_rf_183683081_1.html"
+  },
+  "https://www.ivoox.com/184093653": {
+   "id": "https://www.ivoox.com/184093653",
+   "title": "BRUJERÍA PARA CHICAS DESCARRIADAS de Grady Hendrix – Un Millón de Páginas",
+   "description": "En este podcast se reseña durante unos 11 minutos la novela BRUJERÍA PARA CHICAS DESCARRIADAS, escrita por Grady Hendrix. Como siempre, sin spoilers. \n\nEsto es Un Millón de Páginas, el podcast literario honesto e independiente que no se casa con nadie.",
+   "pubDate": "2026-11-19T16:28:46.000Z",
+   "duration": "10:58",
+   "url": "https://www.ivoox.com/listen_mn_184093653_1.mp3",
+   "type": "audio/mpeg",
+   "length": 10532483,
+   "image": "https://static-1.ivoox.com/audios/d/1/8/a/d18af2e6a39156911bad9513dab87083_XXL.jpg",
+   "link": "https://www.ivoox.com/brujeria-para-chicas-descarriadas-grady-hendrix-audios-mp3_rf_184093653_1.html",
+   "verified": true,
+   "hidden": false
+  },
+  "https://www.ivoox.com/184093621": {
+   "id": "https://www.ivoox.com/184093621",
+   "title": "REY DOLOR de Joe Hill – Un Millón de Páginas",
+   "description": "En este podcast se reseña durante unos 17,5 minutos la novela REY DOLOR, escrita por Joe Hill. Como siempre, sin spoilers. \n\nEsto es Un Millón de Páginas, el podcast literario honesto e independiente que no se casa con nadie.",
+   "pubDate": "2026-11-19T16:27:59.000Z",
+   "duration": "17:28",
+   "url": "https://www.ivoox.com/listen_mn_184093621_1.mp3",
+   "type": "audio/mpeg",
+   "length": 16769688,
+   "image": "https://static-1.ivoox.com/audios/f/f/2/7/ff2782a66112f9dec1319af88b119496_XXL.jpg",
+   "link": "https://www.ivoox.com/rey-dolor-joe-hill-un-millon-audios-mp3_rf_184093621_1.html",
+   "verified": true,
+   "hidden": false
   }
  }
 }
