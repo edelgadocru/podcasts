@@ -3510,6 +3510,8 @@
    "link": "https://www.ivoox.com/warp-10-star-trek-3-piloto-discovery-el-audios-mp3_rf_21140231_1.html"
   },
   "https://www.ivoox.com/184103583": {
+   "verified": true,
+   "hidden": false,
    "id": "https://www.ivoox.com/184103583",
    "title": "[DA] Destino Arrakis 14x05 No pienso verla",
    "description": "Hoy nos reunimos para hablar de esas películas o series conocidas que, por testarudez (u otros motivos) nos negamos a ver y forman parte de nuestros \"deben\" cinematográficos. Ángel, Abraham, Mario y Miguel confiesan sus manías. Escucha el episodio completo en la app de iVoox, o descubre todo el catálogo de iVoox Originals",
@@ -3519,9 +3521,7 @@
    "type": "audio/mpeg",
    "length": 113541208,
    "image": "https://static-1.ivoox.com/audios/d/d/d/7/ddd70d0d57f9d7d4c45d9fe8a2dfd797_XXL.jpg",
-   "link": "https://www.ivoox.com/da-destino-arrakis-14x05-no-pienso-verla-audios-mp3_rf_184103583_1.html",
-   "verified": true,
-   "hidden": false
+   "link": "https://www.ivoox.com/da-destino-arrakis-14x05-no-pienso-verla-audios-mp3_rf_184103583_1.html"
   }
  }
 }
