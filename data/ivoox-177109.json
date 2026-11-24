@@ -3524,6 +3524,8 @@
    "link": "https://www.ivoox.com/da-destino-arrakis-14x05-no-pienso-verla-audios-mp3_rf_184103583_1.html"
   },
   "https://www.ivoox.com/184284502": {
+   "verified": true,
+   "hidden": false,
    "id": "https://www.ivoox.com/184284502",
    "title": "[DA] Destino Arrakis 14x06: Festival Internacional de Cine de Gijón 2026",
    "description": "Nuestras andanzas por el Festival Internacional de Cine de Gijón donde vimos muchas películas interesantes, alguna que no aguantamos y un cierre de Oro con Yo soy Rocky. Escucha el episodio completo en la app de iVoox, o descubre todo el catálogo de iVoox Originals",
@@ -3533,9 +3535,7 @@
    "type": "audio/mpeg",
    "length": 82381471,
    "image": "https://static-1.ivoox.com/audios/b/d/d/2/bdd2d993a22fbd1cf113f12e396fd0b9_XXL.jpg",
-   "link": "https://www.ivoox.com/da-destino-arrakis-14x06-festival-internacional-cine-audios-mp3_rf_184284502_1.html",
-   "verified": true,
-   "hidden": false
+   "link": "https://www.ivoox.com/da-destino-arrakis-14x06-festival-internacional-cine-audios-mp3_rf_184284502_1.html"
   }
  }
 }
