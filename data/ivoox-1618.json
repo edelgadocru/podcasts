@@ -4865,7 +4865,7 @@
    "url": "https://triton-vod.ondacero.es/?programa=ATRESMEDIA_LA_BRUJULA_AOD_P&origen=/mp_audios4/2026/11/24/FA0A25BA-4DFE-4FA4-B883-C69C0B447A6D/FA0A25BA-4DFE-4FA4-B883-C69C0B447A6D.mp3&audioId=6b05dc9bed8101000790a8cc&dist=generic",
    "type": "audio/mpeg",
    "length": 6660216,
-   "image": "https://image.ondacero.es/clipping/cmsimages01/2026/11/24/756FB4E8-E4AA-43E3-85C5-6488BF7D0E32/calle-bissau-guinea-bissau_default.jpg",
+   "image": "https://image.ondacero.es/clipping/cmsimages02/2026/11/25/D5D21786-0A39-45C1-AD38-B91C1F8C63DB/corresponsales-guinea-bissau-pais-que-salen-cada-vez-mas-cayucos-hierro-imagen-diana-rodriguez-pretel_default.jpg",
    "link": "https://www.ondacero.es/podcast/programas/la-brujula/corresponsales/corresponsales-guineabissau-pais-que-salen-cada-vez-mas-cayucos-hierro_202611246b05dc9bed8101000790a8cc.html"
   },
   "6b05d53ded8101000790a8b4": {
@@ -4879,6 +4879,18 @@
    "length": 7095998,
    "image": "https://image.ondacero.es/clipping/cmsimages01/2026/08/31/F8C059C4-4AE6-4327-B162-1ADCDCDAC889/portada-marta-garcia-aller_default.jpg",
    "link": "https://www.ondacero.es/podcast/programas/la-brujula/portada-marta-garcia-aller/portada-marta-garcia-aller-que-gobierno-esperado-ultimo-consejo-ministros-cuatro-dias-elecciones-presentar-traca-final-medidas-sociales_202611246b05d53ded8101000790a8b4.html"
+  },
+  "6b072414ed8101000790ac92": {
+   "id": "6b072414ed8101000790ac92",
+   "title": "La portada de Marta García Aller: ¿Qué va a hacer el próximo gobierno por acabar con la violencia de género?",
+   "description": "La directora de La Brújula realiza un repaso de la actualidad de este miércoles 25 de noviembre, día de lucha contra la violencia machista en el que miles de personas han salido a las calles de España para protestar contra esta lacra.",
+   "pubDate": "2026-11-25T18:08:20.000Z",
+   "duration": "00:08:42",
+   "url": "https://triton-vod.ondacero.es/?programa=ATRESMEDIA_LA_BRUJULA_AOD_P&origen=/mp_audios4/2026/11/25/705AA1E4-D176-4B2D-A126-B1353382B6FC/705AA1E4-D176-4B2D-A126-B1353382B6FC.mp3&audioId=6b072414ed8101000790ac92&dist=generic",
+   "type": "audio/mpeg",
+   "length": 8279508,
+   "image": "https://image.ondacero.es/clipping/cmsimages01/2026/08/31/F8C059C4-4AE6-4327-B162-1ADCDCDAC889/portada-marta-garcia-aller_default.jpg",
+   "link": "https://www.ondacero.es/podcast/programas/la-brujula/portada-marta-garcia-aller/portada-marta-garcia-aller-que-hacer-proximo-gobierno-acabar-violencia-genero_202611256b072414ed8101000790ac92.html"
   }
  }
 }
